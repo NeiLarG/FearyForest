@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+
 </head>
 <body>
-    <div>
-        <h1>Hello, world!</h1>
-    </div>
+   
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer_header">
+						<div class="layers_caption">Welcome to Parallax</div>
+						<div class="layers_title">Fairy Forest</div>
+					</div>
+					<div class="layer layers_base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers_middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers_front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-article_content">
+					<h2 class="main-article_header">To be continued</h2>
+					<p class="main-article_paragraph">A forest is an ecosystem represented by a variety of trees. Forests are deciduous, coniferous, oak and mixed species. Tundra and taiga also belong to forest varieties. The forest is called "the lungs of the planet", because it produces a huge amount of oxygen, and conifers saturate the air with vital nitrogen. But unfortunately, excessive deforestation and forest fires lead to a decrease in oxygen production, as well as to soil erosion and a reduction in the range of animals and insects</p>
+				</div>
+				<div class="copy">© AAGAAT</div>
+			</article>
+
+		</div>
+	</div>
+
+
 </body>
 </html>
